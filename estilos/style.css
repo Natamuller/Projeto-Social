@@ -33,3 +33,30 @@ section#celular{
     height: 627px;
 }
 
+iframe#home{
+    position: relative;
+    top: 80px;
+    left: 21px;
+
+    width: 265px;
+    height: 468px;
+}
+
+section#redes{
+    text-align: right;
+}
+
+section#redes img{
+    width: 70px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+    
+}
+
+section#redes img:hover{
+    border: 2px solid white;
+    transform: translate(0px, -3px);
+    transition: transform .5s;
+}
